@@ -3,7 +3,7 @@
 #Import the txt file
 text = open("AdventofCode_ex1.txt", "r")
 #We need to extract the first and last number of each line
-#Then save it and sum it to the next number of next line and so on
+#Then save it and sum it to the next number of next line
 count = 0 #The sum will be saved in count
 
 for line in text:
@@ -48,7 +48,7 @@ for line in text:
     else:
         data.append(line)
 
-#data_fixed = "".join(data) #Data corrected with numbers into a text
+#data_fixed = "".join(data) #Data corrected with numbers to text
 #print(data_fixed)
 
 #### After we converted it, we performed the calculations as Part 1
